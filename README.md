@@ -1,7 +1,7 @@
 # Github basics
 
 - See this URL for using GitHub:
-  [https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/](Basic Git Commands)
+  [https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/](https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/)
 - Best to clone the repository using the command line into the location where the repositry should live.
 - Will need the URL of the repository from Github, so open GitHub account and go to the "Clone" area. That is where the URL for the repository is found.
 - See the website above for more command line step-by-step.
