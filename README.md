@@ -1,4 +1,4 @@
-#Guthub
+# Github basics
 
 - See this URL for using GitHub:
   [https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/](Basic Git Commands)
