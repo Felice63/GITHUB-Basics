@@ -89,3 +89,8 @@ git push
 ```
 
 - You will then be prompted for your GitHub user name and password. After you’ve pushed your commits, visit your repository on GitHub and notice that your changes are reflected there, and also that you have access to the full commit history.
+
+
+### A more complete reference article for using Git:
+
+- [https://dev.to/g_abud/advanced-git-reference-1o9j](https://dev.to/g_abud/advanced-git-reference-1o9j)
