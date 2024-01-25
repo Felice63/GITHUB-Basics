@@ -1,18 +1,19 @@
 # Github basics
 
-- See this URL for using GitHub:
+- See this URL for step-by-step instructions for using the Command Line to clone your GithHub repository:
   [https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/](https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/)
-- It's best to clone the repository into the location where the repositry should live using the command line.
-- You will need the URL of the repository from Github, so open your GitHub account and go to the "Clone" area. That is where the URL for the repository is found.
-- See the link to the URL above for step-by-step instructions for using the Command Line to clone your GithHub repository.
+- If the repository already exists in your GitHub account, you can clone (copy) the repository to your local computer using the command line.
+- For that you will need the URL of the repository in your Github account, so open your GitHub account and go to your repository.  
+- The repository window shows a list of the files and folders, and there is a green "Code" button to the right. Clicking on that button reveals a list of options to copy or clone the files to your computer. Note that the URL for the repository is found here as well.
+
 
 ### Clone your repository to your local machine
 
-- To clone your repository from GitHub to your local computer, go to your repository page on GitHub and click the green button labeled Clone or download. In the “Clone with HTTPs” section, copy the URL for your repository.
+- To clone your repository from GitHub to your local computer, go to your repository page on GitHub and click the green "Code" button and Clone or download a zipped archive of your repository. The “HTTPs” section displays the URL for your repository. You can copy this URL and then use the terminal (or command line) to sync any changes you make on the files of the cloned repository, to the original repository.
 
 - On your local machine, open terminal and `cd` (change directory) to where you would like to clone your repository.
 
-- Once you are in the directory where you want to put your repository, type in the terminal:
+- Once you are in the directory, type in the terminal:
 
 - `git clone https://github.com/YOUR-URL-TO-REPO-HERE`
 
