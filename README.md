@@ -1,7 +1,35 @@
 # Github basics
 
-- See this URL for step-by-step instructions for using the Command Line to clone your GithHub repository:
-  [https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/](https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/)
+
+## How to Initiate a GitHub Repository from VS Code
+
+If you have a **[Github Account](https://github.com/)**, you can create a GitHub repository directly from your local installation of Visual Studio Code, following these steps:
+
+1. **Create your project folder locally** and add your files³.
+2. **Open your project folder with VS Code**¹.
+3. **Initialize a new local Git repository**:
+    - Click on the 'Source Control' icon on the left navbar in VS Code¹².
+    - This creates a new Git repository in the current folder, allowing you to start tracking code changes².
+4. **Commit your changes**:
+    - You should be able to see files ready to be committed.
+    - Press on the 'Commit' button, provide comments, stage the changes and commit the files¹.
+    - Alternatively, you can run `git commit -am "Your comment"` from the terminal¹.
+5. **Publish to GitHub**:
+    - Click on the source control menu on the sidebar (or press Ctrl+Shift+G), then click on 'Publish to GitHub'¹.
+    - From there, just log in and follow the instructions¹.
+
+Your VSCode Repository should now be available on GitHub³. Please note that you need to have Git installed on your computer to perform these actions². If Git is missing, the Source Control view shows instructions on how to install it². Make sure to restart VS Code afterwards².
+
+**References**
+
+(1) How to Create a Github Repository from VS Code (Example). https://www.jcchouinard.com/create-a-github-repository-vscode/.
+
+(2) Introduction to Git in VS Code - Visual Studio Code. https://code.visualstudio.com/docs/sourcecontrol/intro-to-git.
+
+(3) How to add a new project to Github using VS Code. https://stackoverflow.com/questions/46877667/how-to-add-a-new-project-to-github-using-vs-code.
+
+## Using the VS Code Terminal to clone and edit a GitHub Repository
+
 - If the repository already exists in your GitHub account, you can clone (copy) the repository to your local computer using the command line.
 - For that you will need the URL of the repository in your Github account, so open your GitHub account and go to your repository.  
 - The repository window shows a list of the files and folders, and there is a green "Code" button to the right. Clicking on that button reveals a list of options to copy or clone the files to your computer. Note that the URL for the repository is found here as well.
@@ -92,6 +120,9 @@ git push
 - You will then be prompted for your GitHub user name and password. After you’ve pushed your commits, visit your repository on GitHub and notice that your changes are reflected there, and also that you have access to the full commit history.
 
 
-### A more complete reference article for using Git:
+### Reference:
 
-- [https://dev.to/g_abud/advanced-git-reference-1o9j](https://dev.to/g_abud/advanced-git-reference-1o9j)
+- **[This article](https://dev.to/g_abud/advanced-git-reference-1o9j)** provides more complete instructions for using GitHub.
+
+
+- **[This URL](https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/)** gives step-by-step instructions for using the Command Line to clone your GithHub repository to your local computer.
