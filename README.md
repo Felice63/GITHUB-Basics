@@ -8,12 +8,12 @@ If you have a **[Github Account](https://github.com/)**, you can create a GitHub
 1. **Create your project folder locally** and add your files³.
 2. **Open your project folder with VS Code**¹.
 3. **Initialize a new local Git repository**:
-    - Click on the 'Source Control' icon on the left navbar in VS Code¹².
-    - This creates a new Git repository in the current folder, allowing you to start tracking code changes².
+    - Click on the 'Source Control' icon on the left navbar in VS Code, which is third from the top, below the search icon¹².
+    - This creates a new Git Repository in the current folder, allowing you to start tracking code changes².
 4. **Commit your changes**:
     - You should be able to see files ready to be committed.
     - Press on the 'Commit' button, provide comments, stage the changes and commit the files¹.
-    - Alternatively, you can run `git commit -am "Your comment"` from the terminal¹.
+    - Alternatively, you can run `git commit -m "With your comment,  inside quote marks, describing the changes you made to your files"` from the terminal¹.
 5. **Publish to GitHub**:
     - Click on the source control menu on the sidebar (or press Ctrl+Shift+G), then click on 'Publish to GitHub'¹.
     - From there, just log in and follow the instructions¹.
