@@ -119,6 +119,28 @@ git push
 
 - You will then be prompted for your GitHub user name and password. After you’ve pushed your commits, visit your repository on GitHub and notice that your changes are reflected there, and also that you have access to the full commit history.
 
+### Remove Mac OS .DS_Store file from repositories
+
+- This is from the following repositiory: [
+vybstat/ds_store_removal](https://gist.github.com/vybstat/1680bef4715bfbcb0268)
+
+```GIT
+
+# How to remove the .DS_Store file from GitHub that MAC OS X creates
+
+# First find and remove .DS_Store
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+
+# Create .gitignore file, if you need to
+touch .gitignore
+echo .DS_Store > .gitignore
+
+# Push changes to GitHub
+git add .gitignore
+git commit -m '.DS_Store removed'
+git push
+
+```
 
 ### Reference:
 
