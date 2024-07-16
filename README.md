@@ -1,9 +1,26 @@
 # Github basics
 
+## Setting up GIT in VS Code
+
+Once you create a **[Github Account](https://github.com/)**, you can connect VS Code directly to your remote account.
+
+[SEE This article on how to get started setting up GIT for VS Code](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+
+## First Time Git Setup
+
+To set your account's default identity, open the terminal and run
+
+```CLI
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+```
+
+You can omit the --global flag to set the identity only in the specific repository that is open, otherwise include it for all repositories.
+
 
 ## How to Initiate a GitHub Repository from VS Code
 
-If you have a **[Github Account](https://github.com/)**, you can create a GitHub repository directly from your local installation of Visual Studio Code, following these steps:
+You can create a GitHub repository directly from your local installation of Visual Studio Code:
 
 1. **Create your project folder locally** and add your files³.
 2. **Open your project folder with VS Code**¹.
