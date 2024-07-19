@@ -15,7 +15,14 @@ To set your account's default identity, open the terminal and run
   git config --global user.name "Your Name"
 ```
 
-You can omit the --global flag to set the identity only in the specific repository that is open, otherwise include it for all repositories.
+You can omit the --global flag to set the identity only in the specific repository that is open, otherwise include it to access all your repositories.
+
+"you@exmple.com" is the email you used to create your GitHub account, and "Your Name" is the user name associated with your GitHub account. Your user name precedes your repositories, and is part of your profile's URL, e.g., https://github.com/username.
+
+To find your GitHub username you can also go to your GitHub profile page which is accessed by clicking the icon found at the top right of the page:
+
+<img src="./screencaps/User-Icon.png" width="60" height="60">
+
 
 
 ## How to Initiate a GitHub Repository from VS Code
